@@ -27,6 +27,6 @@ android {
 }
 
 dependencies {
-    //compile 'cn.pedant.sweetalert:library:1.3'
+    //implementation 'com.github.AbhisheKundalia:sweet-alert-dialog:2.0.0'
     implementation project(':library')
 }
