@@ -62,10 +62,12 @@ The simplest way to use SweetAlertDialog is to add the library as aar dependency
 			maven { url 'https://jitpack.io' }
 		}
 	}
-
-   dependencies {
+	
+	dependencies {
 		implementation 'com.github.AbhisheKundalia:sweet-alert-dialog:v2.0.0'
 	}
+
+   
 
 ## Usage
 
