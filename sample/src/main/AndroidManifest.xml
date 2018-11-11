@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.pedant.SweetAlert.sample"
     android:versionCode="12"
-    android:versionName="1.6.0">
+    android:versionName="2.0.0">
 
     <application
         android:icon="@drawable/ic_launcher"
