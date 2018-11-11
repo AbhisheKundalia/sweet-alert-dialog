@@ -31,7 +31,7 @@ Some screenshots of the new features:
 
 Inspired by JavaScript [SweetAlert](http://tristanedwards.me/sweetalert)
 
-[Demo Download](https://github.com/AbhisheKundalia/sweet-alert-dialog/releases/download/v1.2.1/sample-release.apk)
+[Demo Download](https://github.com/AbhisheKundalia/sweet-alert-dialog/releases/download/v2.0.0/sample-release.apk)
 
 ## ScreenShot
 ![image](https://github.com/pedant/sweet-alert-dialog/raw/master/change_type.gif)
