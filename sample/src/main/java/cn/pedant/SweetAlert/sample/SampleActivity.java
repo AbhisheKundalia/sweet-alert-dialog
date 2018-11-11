@@ -230,11 +230,7 @@ public class SampleActivity extends Activity implements View.OnClickListener {
                 break;
 
             case R.id.dark_style:
-                if (((CheckBox) v).isChecked()) {
-                    SweetAlertDialog.DARK_STYLE = true;
-                } else {
-                    SweetAlertDialog.DARK_STYLE = false;
-                }
+                SweetAlertDialog.DARK_STYLE = ((CheckBox) v).isChecked();
                 break;
 
             case R.id.custom_view_test:
