@@ -27,6 +27,6 @@ android {
 }
 
 dependencies {
-    //implementation 'com.github.AbhisheKundalia:sweet-alert-dialog:2.0.0'
+    //implementation 'com.github.AbhisheKundalia:sweet-alert-dialog:v2.0.0'
     implementation project(':library')
 }
