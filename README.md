@@ -1,4 +1,4 @@
-Sweet Alert Dialog
+Sweet Alert Dialog [![](https://jitpack.io/v/AbhisheKundalia/sweet-alert-dialog.svg)](https://jitpack.io/#AbhisheKundalia/sweet-alert-dialog)
 ===================
 SweetAlert for Android, a beautiful and clever alert dialog
 
@@ -25,9 +25,6 @@ Some screenshots of the new features:
 - [ ] Bug with buttons height if custom view too big and need scrollview
 - [ ] Buttons can handle only one line strings
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Sweet%20Alert%20Dialog-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1065)
-
-[中文版](https://github.com/pedant/sweet-alert-dialog/blob/master/README.zh.md)
 
 Inspired by JavaScript [SweetAlert](http://tristanedwards.me/sweetalert)
 
