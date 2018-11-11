@@ -4,6 +4,7 @@ SweetAlert for Android, a beautiful and clever alert dialog
 
 #### This is the most advanced and contemporary fork of the apparently dead project 
 **Added:**
+- Support for sdk 28
 - Ability to set custom view
 - More convenient interface to bind listeners (like in AlertDialog)
 - Third neutral button with own listener, colors, methods and etc.
@@ -40,22 +41,31 @@ The simplest way to use SweetAlertDialog is to add the library as aar dependency
 
 **Maven**
 
+    <repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+    
     <dependency>
-      <groupId>com.github.f0ris.sweetalert</groupId>
-      <artifactId>library</artifactId>
-      <version>1.5.6</version>
-      <type>aar</type>
-    </dependency>
+	    <groupId>com.github.AbhisheKundalia</groupId>
+	    <artifactId>sweet-alert-dialog</artifactId>
+	    <version>v2.0.0</version>
+	</dependency>
 
 **Gradle**
 
-    repositories {
-        mavenCentral()
-    }
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 
-    dependencies {
-        implementation 'com.github.f0ris.sweetalert:library:1.5.6'
-    }
+   dependencies {
+		implementation 'com.github.AbhisheKundalia:sweet-alert-dialog:v2.0.0'
+	}
 
 ## Usage
 
@@ -204,7 +214,6 @@ Disable button
         })
         .show();
 
-[more android tech shares: pedant.cn](http://www.pedant.cn)
 
 ## License
 
